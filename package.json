@@ -1,0 +1,25 @@
+{
+  "name": "ifpnode",
+  "version": "1.0.0",
+  "description": "backend for the IFP project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1",
+    "prisma": "^5.3.1",
+    "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "typescript": "^5.2.2"
+  },
+  "keywords": []
+}
